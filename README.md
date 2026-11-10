@@ -85,6 +85,14 @@ This monorepo contains the Pi CLI and its supporting libraries.
 
 For Slack/chat automation and workflows see [earendil-works/pi-chat](https://github.com/earendil-works/pi-chat).
 
+## Fork notes
+
+Chinese notes for this fork (they do not replace the docs above):
+
+- [架构设计](docs/zh/architecture.md)
+- [代码导读](docs/zh/code-walkthrough.md)
+- [扩展点（待撰写）](docs/zh/extension-points.md)
+
 ## Permissions & Containerization
 
 Pi does not include a built-in permission system for restricting filesystem, process, network, or credential access. By default, it runs with the permissions of the user and process that launched it.
